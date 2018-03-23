@@ -1,0 +1,6 @@
+# files
+stat_const.py
+*.pyc
+
+#foloders
+HealthCare/data
