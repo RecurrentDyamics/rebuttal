@@ -20,3 +20,6 @@ python main.py --model BRITS --batch_size 64
 ```
 
 The original paper in GRU_D uses a dropout layer on the top of the regression. However, in our code, we find such dropout layer is harmful to the final AUC. In our code, we only use recurrent dropout to prevent the overfitting.
+
+## Air Quality
+The air quality code is contained in the RecurrentDynamics folder. Make sure to put the csv files in csv folder and run generate.py script before testing the model.
